@@ -11,24 +11,24 @@ To run the code (in a Linux environment,) please follow these steps:
 
 $ git clone https://github.com/KyleJGreen/StoreFinderAPI.git
 
-2) cd into the cloned repository and activate the virtual environment
+2 -- cd into the cloned repository and activate the virtual environment
 
 $ cd StoreFinderAPI/
 
 $ . venv/bin/activate
 
-3) set environment variable for app
+3 -- set environment variable for app
 
 (venv) $ export FLASK_APP=flask_app.py
 
-4) run the application
+4 -- run the application
 
 (venv) $ flask run
 
-5) open up a new terminal and cd into the directory of the repo, then activate the virtual environment again
+5 -- open up a new terminal and cd into the directory of the repo, then activate the virtual environment again
 
 $ . venv/bin/activate
 
-6) call the API with item id's 0-7
+6 -- call the API with item id's 0-7
 
 (venv) $ http --json http://<your ip address>:5000/api/v1/items/<0-7>
