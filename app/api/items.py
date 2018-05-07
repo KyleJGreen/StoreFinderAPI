@@ -1,11 +1,8 @@
-from flask import jsonify, request, g, url_for, current_app
-from .. import db
+from flask import jsonify
 from ..models import Item, Store, ItemStore
 from . import api
-from .decorators import permission_required
-from .errors import forbidden
 
-
+# route gets information on item and locations stocking the item given the item id
 @api.route('/items/<int:id>')
 def get_item(id):
     store_ids = [item.store_id for item in ItemStore.query.filter_by(item_id=id).all()]
