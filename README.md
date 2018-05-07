@@ -7,7 +7,7 @@ The database for this implementation is an sqlite file located at ~/data-dev.sql
 
 To run the code (in a Linux environment,) please follow these steps:
 
-1)  In a terminal, cd into the directory you want the repository in and clone the repo
+1 -- In a terminal, cd into the directory you want the repository in and clone the repo
 
 $ git clone https://github.com/KyleJGreen/StoreFinderAPI.git
 
