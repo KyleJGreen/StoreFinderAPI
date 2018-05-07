@@ -24,4 +24,4 @@ $ . venv/bin/activate
 $ . venv/bin/activate
 
 6  call the API with item id's 0-7  
-(venv) $ http --json http://<your ip address>:5000/api/v1/items/<0-7>
+(venv) $ http --json http://<your ip goes here>:5000/api/v1/items/<0-7>
