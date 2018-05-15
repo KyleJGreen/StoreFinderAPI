@@ -10,7 +10,7 @@ To run the code (in a Linux environment,) please follow these steps:
 1  in a terminal, cd into the directory you want the repository in and clone the repo  
 $ git clone https://github.com/KyleJGreen/StoreFinderAPI.git
 
-2-  cd into the cloned repository and activate the virtual environment  
+2  cd into the cloned repository and activate the virtual environment  
 $ cd StoreFinderAPI/  
 $ . venv/bin/activate
 
